@@ -19,9 +19,25 @@ body {
   overflow: hidden;
 }
 
+.loading {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: 999;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loading img {
+  width: 160px;
+  height: 146px;
+}
+
 .search {
   position: absolute;
-  width: 80%;
+  width: 65%;
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px #ccc;
